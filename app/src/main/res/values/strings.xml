@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VTA Horana</string>
+    <string name="welcome">Welcome to the official android app of VTC Horana</string>
+    <string name="browse">View all the available courses in our Vocational Training Center</string>
+    <string name="suggest">Get course suggestions based on your qualifications</string>
+    <string name="register">Register conveniently within the app.No paper filling.</string>
+    <string name="chat">Got questions? Let us help you.</string>
+    <string name="events">View and get notified about all important events in the Vocational Training Center</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

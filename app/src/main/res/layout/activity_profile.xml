@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".RegistrationForm">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/lavender_border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/profileStudentImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/uploadimg" />
+
+            <TextView
+                android:id="@+id/txtproStudentName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="D E Miller"
+                android:maxLines="1"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+
+
+            <TextView
+                android:id="@+id/txtproStudentFullName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="Damien Erric Miller"
+                android:maxLines="3"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+
+
+
+            <TextView
+                android:id="@+id/txtproStudentNic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="123456789V"
+                android:minHeight="60dp"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <TextView
+                android:id="@+id/txtproDob"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:textColor="@color/lavender"
+                android:hint="Select a Date"
+                android:focusable="false"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/txtproGender"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:textColor="@color/lavender"
+                android:hint="Select a Date"
+                android:focusable="false"
+                android:clickable="true" />
+
+            <TextView
+                android:id="@+id/txtproStudentAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:maxLines="3"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Address"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <TextView
+                android:id="@+id/txtproStudentPhone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:inputType="numberDecimal"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="070 000 0000"
+                android:minHeight="60dp"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+            <TextView
+                android:id="@+id/txtproStudentEmail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="you@gmail.com"
+                android:minHeight="60dp"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+
+
+            <TextView
+                android:id="@+id/txtproStudentCourseSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:gravity="start|center_vertical"
+                android:hint="Selected course will be displayed"
+                android:padding="16dp"
+                android:textColor="@color/lavender" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
